@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1416359064302970}
+  m_IsPrefabParent: 1
+--- !u!1 &1416359064302970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4788068803322938}
+  - component: {fileID: 114407397213403204}
+  - component: {fileID: 114644920083441496}
+  - component: {fileID: 114268005670143656}
+  m_Layer: 0
+  m_Name: SceneController
+  m_TagString: SceneController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4788068803322938
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1416359064302970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.926649, y: 1.9539622, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114268005670143656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1416359064302970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611301020e97ed0499e64f395a55a919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EndPanel: {fileID: 0}
+  hovel1: {fileID: 0}
+  hovelAlive1: 0
+  hovel2: {fileID: 0}
+  hovelAlive2: 0
+  ResultText: {fileID: 0}
+  P1Sprite: {fileID: 21300000, guid: f9ed2103a1ac94e49a30c6c72e583ca3, type: 3}
+  P2Sprite: {fileID: 21300000, guid: 04a6606185f312a49879426e7a0b71cd, type: 3}
+  Player1Image: {fileID: 0}
+  Player2Image: {fileID: 0}
+--- !u!114 &114407397213403204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1416359064302970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 751347e481d80df49a4ba86b03091cf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateExists: 0
+  ConstructPanel: {fileID: 0}
+  btnHouse: {fileID: 0}
+  houseTemplate: {fileID: 1415309172354978, guid: 0a661b767c5aeb04b86fdd7301e6b8d9,
+    type: 2}
+  btnWoodCutter: {fileID: 0}
+  woodTemplate: {fileID: 1350027635595536, guid: 267f47bf3f537e24684e407d48add453,
+    type: 2}
+  btnFarm: {fileID: 0}
+  farmTemplate: {fileID: 1437149413918288, guid: 7a1733f7703950d4c825189f5c419d86,
+    type: 2}
+  btnMine: {fileID: 0}
+  mineTemplate: {fileID: 1962323566341020, guid: bf8e58fec5d93a14793f864d64758bbb,
+    type: 2}
+  btnBarracks: {fileID: 0}
+  BarracksTemplate: {fileID: 1674506115253902, guid: 3525db3b9fb1cd547bba5ffd31c7e5aa,
+    type: 2}
+  btnGateway: {fileID: 0}
+  GatewayTemplate: {fileID: 1690756592711118, guid: 5b547ff58c9209945b2c4eed4d719a9c,
+    type: 2}
+  btnTower: {fileID: 0}
+  TowerTemplate: {fileID: 1195393289156798, guid: 97acf5e4cddfaf84e8f0aa75062a871e,
+    type: 2}
+  HouseImage: {fileID: 21300000, guid: f4341eb8ef93b36439c3bfa719d776e1, type: 3}
+  LumbermillImage: {fileID: 21300000, guid: 63e51d892c27dad489bf9a989afffb24, type: 3}
+  MineImage: {fileID: 21300000, guid: cdabce401a8a9524ca98c4ff0b670b99, type: 3}
+  FarmhouseImage: {fileID: 21300000, guid: 277c10d7638e6524bbacc55e634ef6db, type: 3}
+  BarracksImage: {fileID: 21300000, guid: 7d5aba9a4786ea34aa614ccf1a1b4756, type: 3}
+  TowerImage: {fileID: 21300002, guid: bf3c6969da1491d4780c54897435287a, type: 3}
+  GatewayImage: {fileID: 21300000, guid: ae09feb7c0ed8584a821d6d93ab8f718, type: 3}
+  InfoDisplay: {fileID: 0}
+  BuildingDisplay: {fileID: 0}
+  WoodCostText: {fileID: 0}
+  StoneCostText: {fileID: 0}
+  MetalCostText: {fileID: 0}
+  VillagerCostText: {fileID: 0}
+  instansiatedBuilding: {fileID: 0}
+--- !u!114 &114644920083441496
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1416359064302970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1bad1879181b2c44a13979da9b69b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapIntValue: 0
+  numberOfTiles: 0
+  minimap: {fileID: 0}
+  AboveBorder: {fileID: 1987915350135898, guid: a45ec159cb4b5aa4c841b02648b70dbc,
+    type: 2}
+  groundTile: {fileID: 1762225216793538, guid: 617e9960d8371a64c96f39da28cc4cf1, type: 2}
+  treeObj: {fileID: 1778899456126094, guid: 09fa68ea10251a24892a9ba139e1ddb2, type: 2}
+  groundTileEntrance: {fileID: 1930767043316936, guid: 779dd84170cb6b24186d8b596a3698db,
+    type: 2}
+  underGroundTile: {fileID: 1896530802491360, guid: a9f288532828a7046920269edafa4616,
+    type: 2}
+  undergroundTileEntrance: {fileID: 1315385225026084, guid: 33a58c864ba66f942bc40cfe8cba4084,
+    type: 2}
+  UnderBorder: {fileID: 1430445702960170, guid: f2c136f4486cef64cb090af8b0d7e88c,
+    type: 2}
+  entrancesTilePoint1: 0
+  entrancesTilePoint2: 0
+  entrancesTilePoint3: 0
+  entrancesTilePoint4: 0
+  gibblerHovel: {fileID: 1445974083552578, guid: c28a0a2f4b01bed4eaec6df800634051,
+    type: 2}
+  wolfDen: {fileID: 0}
+  TribalHutt: {fileID: 0}
+  mapLength: 0
+  EndMapTile: {fileID: 0}
+  CenterMapTileAbove: {fileID: 0}
+  CenterMapTileUnder: {fileID: 0}
+  TownhallPrefab: {fileID: 1148001755828556, guid: 7bd5384b546ebe4498ee5406b9817c7b,
+    type: 2}
+  WoodCuttersPrefab: {fileID: 1587421592833562, guid: 10333f33ab7829b4eb8a973695165e5e,
+    type: 2}
+  FarmHousePrefab: {fileID: 1065172639007702, guid: 3b650294a637f5644a57d6b2833056f4,
+    type: 2}
+  AboveFoodObj: {fileID: 1077978175505696, guid: dc48c1b1adc23ad40b13a0b9ebf3db91,
+    type: 2}
+  UnderFoodObj: {fileID: 1865979878353812, guid: da439166076d5594b84c04bdf8cf5b96,
+    type: 2}
+  TreesPrefab: {fileID: 1778899456126094, guid: 09fa68ea10251a24892a9ba139e1ddb2,
+    type: 2}
+  smallrockVeinPrefab: {fileID: 1866804785464070, guid: 8a328a8c012639248a675d8b7505dddc,
+    type: 2}
+  bigrockVeinPrefab: {fileID: 1167862205013400, guid: da611036500d3d74ea85c526e658c415,
+    type: 2}
+  PlayerObj: {fileID: 1654489709691220, guid: 90ff580bde7605246a346be3ed6a90ed, type: 2}

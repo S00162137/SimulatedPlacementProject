@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SceneController
+  - Ground
+  - Enemy
+  - Militia
+  - TownHall
+  - Building
+  - EnemyBuilding
+  - Environment
+  - RallyPoint
+  - PlayerWeapon
+  - TemplateBuilding
+  - GibblerHovel
+  - Gibbler
+  - BorderBounds
+  - Arrow
+  - PlayerController
+  - EnemyController
+  - Villager
+  - EnemyPlayer
+  - EnemyVillager
+  - Trees
+  - Veins
+  - UndergroundEntrance
+  - FoodGenObj
+  - GameControler
+  - MinimapCamera
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PlayerBuilding
+  - PlayerUnits
+  - EnemyBuilding
+  - EnemyUnits
+  - EnvirnmentObjects
+  - Ground
+  - Player
+  - 
+  - 
+  - Non-PlayerInteratable
+  - Gibbler
+  - NeutralBase
+  - EnemyPlayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Minimap Layer
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
